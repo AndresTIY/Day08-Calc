@@ -1,6 +1,10 @@
 body {
   font-family: sans-serif;
   margin: 5rem auto;
+  background-image: url(http://www.fillmurray.com/200/300);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: dodgerblue;
 }
 
 .calc-form {
@@ -9,5 +13,31 @@ text-align: center;
 
 .output {
   text-align: center;
-  margin-top: 5rem;
+  background: #FAFAFA;
+  border: 2px solid black;
+  margin: 5rem 15rem;
+  padding: 2rem 0;
+}
+input {
+  width: 20%;
+  height: 2rem;
+  font-size: 2rem;
+}
+p {
+  margin:2rem auto;
+  font-size: 2rem;
+  background: #FAFAFA;
+  width: 2rem;
+  border: .25rem solid dodgerblue;
+  border-radius: 50%;
+}
+#button {
+  color: dodgerblue;
+}
+#result {
+  font-size: 2rem;
+}
+#one, #two {
+  text-align: center;
+  color: dodgerblue;
 }
