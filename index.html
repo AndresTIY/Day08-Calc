@@ -9,15 +9,22 @@
 
     <form class="calc-form" action="index.html" method="post">
 
-      <input type="text" name="first-value" value="first number">
-      <input type="text" name="second-value" value="second number">
-      <input type="submit" name="calculate" value="calculate">
+      <input id="one" type="text">
+
+      <input id="two" type="text">
+
+      <input type="button" name="calculate" value="calculate"
+      onclick="add();">
+
+
 
     </form>
 
 
     <div class="output">
-      <output name="result">Result</output>
+
+      <output id="result" name="result">Result</output>
+
     </div>
 
 
